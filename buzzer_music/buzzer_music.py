@@ -149,7 +149,7 @@ class music:
         self.beat = -1
         self.arpnote = 0
         
-        self.pwm = PWM(Pin(0))
+        self.pwm = PWM(Pin(1))
         
         self.notes = []
 
