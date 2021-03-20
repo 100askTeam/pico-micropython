@@ -58,10 +58,11 @@ def segment_on(timer):
         seg1_count = 0
         shut_off(segment_one)
 
-# 循环显示1-9    
+
+
+# 循环显示1-9   
 display_test = 0
-num_test = True
-while num_test:
+while True:
     display_num(display_test, segment_one)
     sleep(1)
     shut_off(segment_one)
